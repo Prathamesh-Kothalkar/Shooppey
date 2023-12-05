@@ -22,7 +22,7 @@ const Navbar=()=>{
           <div className="navbar">
             <div className="nav-logo">
                 <img src={logo} alt="logo"/>
-                <p>Shoppeey</p>
+                <p>SHOPPIE</p>
             </div>
             <ul className="nav-menu">
                 <li onClick={ ()=>{ setMenu("shop");setProgress(100)} }><Link to="/" style={{textDecoration:'none'}} > Shop </Link>{menu==="shop"?<hr/>:<></>} </li>
