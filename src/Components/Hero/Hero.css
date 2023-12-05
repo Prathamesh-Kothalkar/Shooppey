@@ -1,0 +1,65 @@
+
+
+/* Default styles for all screen sizes */
+
+.hero {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom right, #FDFCFB, #E2D1C3);
+  }
+  
+  .hero-left {
+    width: 50%;
+    background-position: center;
+  }
+  .hero-left img{
+    height: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero-right {
+    width: 50%;
+    padding: 30px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  h1 img{
+    height: 50px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  button {
+    background-color: #ff0080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles for smaller screens */
+  
+  @media screen and (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      min-height: 300px;
+    }
+  
+    .hero-left {
+      width: 100%;
+      height: auto;
+    }
+  
+    .hero-right {
+      width: 100%;
+      padding: 20px;
+    }
+  }

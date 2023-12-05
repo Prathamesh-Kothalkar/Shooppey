@@ -1,0 +1,88 @@
+/* Default styles for larger screens */
+.login-container {
+  width: auto;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+  background: linear-gradient( #2193b0, #6dd5ed);
+}
+
+.login-card {
+  width: 400px; /* Set a fixed width for larger screens */
+  background-color: rgba(255, 255, 255, 0.452);
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 auto;
+  backdrop-filter: blur(10px);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+}
+
+input {
+  padding: 15px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.xx,
+.button {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.forget {
+  float: right;
+}
+
+.check {
+  margin-top: 1px;
+  float: left;
+}
+
+.x {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.button {
+  background-color: rgb(53, 53, 53);
+  padding: 10px;
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  color: white;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .login-container {
+      padding: 50px;
+  }
+
+  .login-card {
+    height: 500px;  
+    width: 100%; /* Use full width on smaller screens */
+  }
+
+  form {
+      padding: 20px;
+  }
+
+  input {
+      padding: 10px;
+  }
+}

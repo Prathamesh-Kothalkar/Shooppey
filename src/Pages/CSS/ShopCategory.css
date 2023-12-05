@@ -1,0 +1,18 @@
+
+
+.banner-image{
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+}
+.items{
+    margin:100px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.category-item{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap:35px;
+}

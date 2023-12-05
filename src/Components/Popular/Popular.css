@@ -1,0 +1,14 @@
+.popular h1{
+    text-align: center;
+}
+.items{
+    margin:100px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.popular-item{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap:35px;
+}

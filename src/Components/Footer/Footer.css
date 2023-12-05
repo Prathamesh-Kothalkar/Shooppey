@@ -1,0 +1,49 @@
+.container{
+    width: 100%;
+    height: 250px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    flex: wrap;
+    justify-content:space-around;
+}
+
+
+.address ul, .links ul, .social-media ul{
+    list-style: none;
+    margin-top: 30px;
+   
+}
+
+
+.address ul li:first-child, .links ul li:first-child, .social-media ul li:first-child{
+   font-size: 24px;
+   margin-bottom: 20px;
+   text-decoration: underline;
+   text-align: center;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    background-color: purple;
+}
+
+.copyright a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      height: auto;
+    }
+}
