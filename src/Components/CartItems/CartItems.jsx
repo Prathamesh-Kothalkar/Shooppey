@@ -6,6 +6,9 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; 
 const CartItems = () =>{
     const {all_product,cartItem,removeToCart,getTotalAmount}=useContext(ShopContext)
+    function buyHandler(){
+        alert("Login First");
+    }
     return(
         <>
            <div className="cartitems">
@@ -42,7 +45,7 @@ const CartItems = () =>{
                     <hr />
                     <p>Total Bill  <span className="amount"> $ {getTotalAmount()}</span></p>
                     
-                    <button>Procced To Buy</button>
+                    <button onclick="()=>{buyHandler()}">Procced To Buy</button>
                     </div>
                 </div>
                 <div className="promo">
