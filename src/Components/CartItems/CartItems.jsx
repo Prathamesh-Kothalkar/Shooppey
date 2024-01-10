@@ -42,7 +42,7 @@ const CartItems = () =>{
                     <hr />
                     <p>Total Bill  <span className="amount"> $ {getTotalAmount()}</span></p>
                     
-                    <button onclick="()=>{toast.warning("Login First..!");}">Procced To Buy</button>
+                    <button onclick="()=>{toast("Login First..!");}">Procced To Buy</button>
                     </div>
                 </div>
                 <div className="promo">
